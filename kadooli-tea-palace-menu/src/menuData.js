@@ -119,26 +119,26 @@ export const menuData = {
     icon: "🌯",
     image: "/images/porotta_paratha_wrap_11f089a5.jpg",
     items: [
-      { name: "Zinker Porotta", nameAr: "براتا زنجر", price: "9.00" },
-      { name: "Chi. Chilli Porotta", nameAr: "براتا دجاج شلي", price: "6.00" },
-      { name: "Mathafi Double Porotta", nameAr: "براتا دبل مطافي", price: "13.50" },
-      { name: "PUB G Porotta", nameAr: "براتا بوب جي", price: "9.00" },
-      { name: "Francisco Porotta", nameAr: "براتا فرانسيسكو", price: "6.50" },
-      { name: "Crispy Porotta", nameAr: "براتا كريسبي", price: "9.00" },
-      { name: "Keema Porotta", nameAr: "براتا كيما", price: "4.00" },
-      { name: "Hotdog Porotta", nameAr: "براتا هوت دوج", price: "5.00" },
-      { name: "Chi. Mayonnaise Porotta", nameAr: "براتا دجاج مايونيز", price: "5.00" },
-      { name: "Samosa Porotta", nameAr: "براتا سموسة", price: "4.00" },
-      { name: "Boiled Egg/Omlette Porotta", nameAr: "براتا بيض مسلوق/أومليت", price: "4.00" },
-      { name: "Nuggets Porotta", nameAr: "براتا قطع دجاج", price: "6.50" },
-      { name: "Tikka Porotta", nameAr: "براتا تكه", price: "6.00" },
-      { name: "Fillet Porotta", nameAr: "براتا فليه", price: "8.50" },
-      { name: "Shrimps Porotta", nameAr: "براتا روبيان", price: "6.00" },
-      { name: "Beef Nashif Porotta", nameAr: "براتا لحم ناشف", price: "6.00" },
-      { name: "Oman Chips Porotta", nameAr: "براتا عمان شيبس", price: "4.00" },
-      { name: "Kabab Porotta", nameAr: "براتا كباب", price: "6.00" },
-      { name: "Nutella/Lotus Porotta", nameAr: "براتا نوتيلا/لوتس", price: "4.00" },
-      { name: "Egg Tomato Porotta", nameAr: "براتا بيض طماطم", price: "5.50" }
+      { name: "Zinker Porotta", nameAr: "براتا زنجر", price: "9.00", image: "/images/zinker_porotta_sandwich_wrap.png" },
+      { name: "Chi. Chilli Porotta", nameAr: "براتا دجاج شلي", price: "6.00", image: "/images/chicken_chilli_porotta_wrap.png" },
+      { name: "Mathafi Double Porotta", nameAr: "براتا دبل مطافي", price: "13.50", image: "/images/mathafi_double_porotta_wrap.png" },
+      { name: "PUB G Porotta", nameAr: "براتا بوب جي", price: "9.00", image: "/images/pub_g_porotta_wrap.png" },
+      { name: "Francisco Porotta", nameAr: "براتا فرانسيسكو", price: "6.50", image: "/images/francisco_porotta_wrap.png" },
+      { name: "Crispy Porotta", nameAr: "براتا كريسبي", price: "9.00", image: "/images/crispy_porotta_wrap.png" },
+      { name: "Keema Porotta", nameAr: "براتا كيما", price: "4.00", image: "/images/keema_porotta_wrap.png" },
+      { name: "Hotdog Porotta", nameAr: "براتا هوت دوج", price: "5.00", image: "/images/hotdog_porotta_wrap.png" },
+      { name: "Chi. Mayonnaise Porotta", nameAr: "براتا دجاج مايونيز", price: "5.00", image: "/images/chicken_mayonnaise_porotta_wrap.png" },
+      { name: "Samosa Porotta", nameAr: "براتا سموسة", price: "4.00", image: "/images/samosa_porotta_wrap.png" },
+      { name: "Boiled Egg/Omlette Porotta", nameAr: "براتا بيض مسلوق/أومليت", price: "4.00", image: "/images/boiled_egg_omelette_porotta_wrap.png" },
+      { name: "Nuggets Porotta", nameAr: "براتا قطع دجاج", price: "6.50", image: "/images/nuggets_porotta_wrap.png" },
+      { name: "Tikka Porotta", nameAr: "براتا تكه", price: "6.00", image: "/images/tikka_porotta_wrap.png" },
+      { name: "Fillet Porotta", nameAr: "براتا فليه", price: "8.50", image: "/images/fillet_porotta_wrap.png" },
+      { name: "Shrimps Porotta", nameAr: "براتا روبيان", price: "6.00", image: "/images/shrimps_porotta_wrap.png" },
+      { name: "Beef Nashif Porotta", nameAr: "براتا لحم ناشف", price: "6.00", image: "/images/beef_nashif_porotta_wrap.png" },
+      { name: "Oman Chips Porotta", nameAr: "براتا عمان شيبس", price: "4.00", image: "/images/oman_chips_porotta_wrap.png" },
+      { name: "Kabab Porotta", nameAr: "براتا كباب", price: "6.00", image: "/images/kabab_porotta_wrap.png" },
+      { name: "Nutella/Lotus Porotta", nameAr: "براتا نوتيلا/لوتس", price: "4.00", image: "/images/nutella_lotus_porotta_wrap.png" },
+      { name: "Egg Tomato Porotta", nameAr: "براتا بيض طماطم", price: "5.50", image: "/images/egg_tomato_porotta_wrap.png" }
     ]
   },
   potatoSpecial: {
