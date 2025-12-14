@@ -785,6 +785,64 @@ body {
   background: var(--bg-card);
 }
 
+/* ==================== OPTIMIZED IMAGES ==================== */
+.opt-img-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg-elevated);
+}
+
+.opt-img-wrap picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.opt-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.opt-img.loaded {
+  opacity: 1;
+}
+
+.opt-img-placeholder {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    var(--bg-elevated) 0%,
+    var(--bg-card) 50%,
+    var(--bg-elevated) 100%
+  );
+  background-size: 200% 200%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.opt-img-wrap.card-image,
+.opt-img-wrap.item-image,
+.opt-img-wrap.banner-image {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-item-placeholder {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+}
+
 /* ==================== ANIMATIONS ==================== */
 @keyframes fadeIn {
   from { opacity: 0; }

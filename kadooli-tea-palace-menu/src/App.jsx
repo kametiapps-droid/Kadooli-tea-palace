@@ -1,5 +1,6 @@
-import { useState, useMemo, useCallback, memo } from 'react'
+import { useState, useMemo, useCallback, memo, useRef, useEffect } from 'react'
 import { menuData, restaurantInfo } from './menuData'
+import OptimizedImage from './OptimizedImage'
 import './App.css'
 
 const MAPS_URL = "https://maps.app.goo.gl/vfRGC8KHMorh7fKV8"
@@ -99,11 +100,11 @@ const CategoryCard = memo(function CategoryCard({ categoryKey, category, onClick
       style={{ animationDelay: `${index * 0.04}s` }}
     >
       <div className="card-image-wrap">
-        <img 
+        <OptimizedImage 
           src={category.image} 
           alt={category.name}
-          loading="lazy"
           className="card-image"
+          priority={index < 4}
         />
         <div className="card-overlay"></div>
         <div className="card-badge">{category.items.length}</div>
@@ -125,11 +126,11 @@ const MenuItem = memo(function MenuItem({ item, categoryImage, index }) {
   return (
     <div className="menu-item" style={{ animationDelay: `${index * 0.03}s` }}>
       <div className="item-image-wrap">
-        <img 
+        <OptimizedImage 
           src={item.image || categoryImage} 
           alt={item.name}
-          loading="lazy"
           className="item-image"
+          priority={index < 6}
         />
       </div>
       <div className="item-content">
@@ -144,14 +145,49 @@ const MenuItem = memo(function MenuItem({ item, categoryImage, index }) {
   )
 })
 
+const VirtualizedItem = memo(function VirtualizedItem({ item, categoryImage, index }) {
+  const [isVisible, setIsVisible] = useState(index < 9)
+  const ref = useRef(null)
+
+  useEffect(() => {
+    if (isVisible || index < 9) return
+    
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true)
+          observer.disconnect()
+        }
+      },
+      { rootMargin: '400px', threshold: 0 }
+    )
+
+    if (ref.current) observer.observe(ref.current)
+    return () => observer.disconnect()
+  }, [isVisible, index])
+
+  if (!isVisible) {
+    return <div ref={ref} className="menu-item-placeholder" style={{ height: '88px' }} />
+  }
+
+  return (
+    <MenuItem 
+      item={item} 
+      categoryImage={categoryImage}
+      index={index} 
+    />
+  )
+})
+
 const CategoryPage = memo(function CategoryPage({ category }) {
   return (
     <div className="category-page">
       <div className="category-header-banner">
-        <img 
+        <OptimizedImage 
           src={category.image} 
           alt={category.name}
           className="banner-image"
+          priority={true}
         />
         <div className="banner-overlay"></div>
         <div className="banner-content">
@@ -165,7 +201,7 @@ const CategoryPage = memo(function CategoryPage({ category }) {
       </div>
       <div className="items-container">
         {category.items.map((item, idx) => (
-          <MenuItem 
+          <VirtualizedItem 
             key={idx} 
             item={item} 
             categoryImage={category.image}
