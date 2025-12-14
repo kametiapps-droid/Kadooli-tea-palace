@@ -194,11 +194,11 @@ export const menuData = {
     icon: "🧃",
     image: "/images/fruit_juice_bottles__a4fb9107.jpg",
     items: [
-      { name: "Pineapple (1L/2L)", nameAr: "أناناس", price: "15.50/21.00" },
-      { name: "Pomegranate (1L/2L)", nameAr: "رمان", price: "15.50/21.00" },
-      { name: "Mango (1L/2L)", nameAr: "مانجو", price: "10.50/21.00" },
-      { name: "Watermelon (1L/2L)", nameAr: "بطيخ", price: "10.50/21.00" },
-      { name: "Bottle Juice (5L)", nameAr: "عصير القرشة", price: "10.50/21.00" }
+      { name: "Pineapple (1L/2L)", nameAr: "أناناس", price: "15.50/21.00", image: "/images/fresh_pineapple_juice_pitcher.png" },
+      { name: "Pomegranate (1L/2L)", nameAr: "رمان", price: "15.50/21.00", image: "/images/fresh_pomegranate_juice_pitcher.png" },
+      { name: "Mango (1L/2L)", nameAr: "مانجو", price: "10.50/21.00", image: "/images/fresh_mango_juice_pitcher.png" },
+      { name: "Watermelon (1L/2L)", nameAr: "بطيخ", price: "10.50/21.00", image: "/images/fresh_watermelon_juice_pitcher.png" },
+      { name: "Bottle Juice (5L)", nameAr: "عصير القرشة", price: "10.50/21.00", image: "/images/5l_bottle_fruit_juice.png" }
     ]
   },
   specialJuices: {
@@ -207,20 +207,20 @@ export const menuData = {
     icon: "🥤",
     image: "/images/special_cocktail_tro_ee0c678a.jpg",
     items: [
-      { name: "Abood", nameAr: "عبود", price: "15.00" },
-      { name: "Galaxy", nameAr: "جالكسي", price: "15.00" },
-      { name: "Thabakath", nameAr: "طبقات", price: "15.00" },
-      { name: "Kadoli Special", nameAr: "كادولي خاص", price: "15.00" },
-      { name: "Megastar", nameAr: "ميقاستار", price: "15.00" },
-      { name: "Falak", nameAr: "فالك", price: "15.00" },
-      { name: "Kismath", nameAr: "كسمث", price: "15.00" },
-      { name: "Cocktail", nameAr: "كوكتيل", price: "15.00" },
-      { name: "369", nameAr: "369", price: "15.00" },
-      { name: "5292", nameAr: "5292", price: "15.00" },
-      { name: "007", nameAr: "007", price: "15.00" },
-      { name: "Awar Qalb", nameAr: "عور القلب", price: "15.00" },
-      { name: "20x20", nameAr: "20x20", price: "15.00" },
-      { name: "Tender Coconut Milkshake", nameAr: "حليب شيك جوز الهند", price: "15.00" }
+      { name: "Abood", nameAr: "عبود", price: "15.00", image: "/images/abood_special_juice_drink.png" },
+      { name: "Galaxy", nameAr: "جالكسي", price: "15.00", image: "/images/galaxy_special_juice_drink.png" },
+      { name: "Thabakath", nameAr: "طبقات", price: "15.00", image: "/images/thabakath_layered_juice.png" },
+      { name: "Kadoli Special", nameAr: "كادولي خاص", price: "15.00", image: "/images/kadoli_special_juice.png" },
+      { name: "Megastar", nameAr: "ميقاستار", price: "15.00", image: "/images/megastar_special_juice.png" },
+      { name: "Falak", nameAr: "فالك", price: "15.00", image: "/images/falak_special_juice.png" },
+      { name: "Kismath", nameAr: "كسمث", price: "15.00", image: "/images/kismath_special_juice.png" },
+      { name: "Cocktail", nameAr: "كوكتيل", price: "15.00", image: "/images/tropical_cocktail_juice.png" },
+      { name: "369", nameAr: "369", price: "15.00", image: "/images/369_special_juice.png" },
+      { name: "5292", nameAr: "5292", price: "15.00", image: "/images/5292_special_juice.png" },
+      { name: "007", nameAr: "007", price: "15.00", image: "/images/007_special_juice.png" },
+      { name: "Awar Qalb", nameAr: "عور القلب", price: "15.00", image: "/images/awar_qalb_special_juice.png" },
+      { name: "20x20", nameAr: "20x20", price: "15.00", image: "/images/20x20_special_juice.png" },
+      { name: "Tender Coconut Milkshake", nameAr: "حليب شيك جوز الهند", price: "15.00", image: "/images/tender_coconut_milkshake.png" }
     ]
   },
   mojito: {
@@ -229,15 +229,15 @@ export const menuData = {
     icon: "🍸",
     image: "/images/mojito_mint_lime_coc_fb7f34eb.jpg",
     items: [
-      { name: "Pomegranate", nameAr: "رمان", price: "12.50" },
-      { name: "Mojito Special", nameAr: "موهيتو خاص", price: "12.50" },
-      { name: "Passion Fruit", nameAr: "فاكهة العاشقة", price: "12.50" },
-      { name: "Mix Fruit", nameAr: "فاكهة مشكل", price: "12.50" },
-      { name: "Strawberry", nameAr: "فراولة", price: "12.50" },
-      { name: "Blueberry", nameAr: "توت ازرق", price: "12.50" },
-      { name: "Watermelon", nameAr: "بطيخ", price: "12.50" },
-      { name: "Raspberry", nameAr: "توت العليق", price: "12.50" },
-      { name: "Lemon", nameAr: "ليمون", price: "12.50" }
+      { name: "Pomegranate", nameAr: "رمان", price: "12.50", image: "/images/pomegranate_mojito_drink.png" },
+      { name: "Mojito Special", nameAr: "موهيتو خاص", price: "12.50", image: "/images/classic_mojito_special.png" },
+      { name: "Passion Fruit", nameAr: "فاكهة العاشقة", price: "12.50", image: "/images/passion_fruit_mojito.png" },
+      { name: "Mix Fruit", nameAr: "فاكهة مشكل", price: "12.50", image: "/images/mix_fruit_mojito.png" },
+      { name: "Strawberry", nameAr: "فراولة", price: "12.50", image: "/images/strawberry_mojito_glass.png" },
+      { name: "Blueberry", nameAr: "توت ازرق", price: "12.50", image: "/images/blueberry_mojito_glass.png" },
+      { name: "Watermelon", nameAr: "بطيخ", price: "12.50", image: "/images/watermelon_mojito_glass.png" },
+      { name: "Raspberry", nameAr: "توت العليق", price: "12.50", image: "/images/raspberry_mojito_glass.png" },
+      { name: "Lemon", nameAr: "ليمون", price: "12.50", image: "/images/lemon_mojito_glass.png" }
     ]
   },
   milkshakes: {
@@ -246,14 +246,14 @@ export const menuData = {
     icon: "🥛",
     image: "/images/chocolate_milkshake__430b02f4.jpg",
     items: [
-      { name: "Oreo Milk Shake", nameAr: "اوريو شيك", price: "12.50/15.50" },
-      { name: "KitKat Crush", nameAr: "كت كات كرش", price: "12.50/15.50" },
-      { name: "Snickers Crush", nameAr: "سنيكرز كرش", price: "12.50/15.50" },
-      { name: "Kinder Shake", nameAr: "كندر شيك", price: "12.50/15.50" },
-      { name: "Nutella Crush", nameAr: "نوتيلا كرش", price: "12.50/15.50" },
-      { name: "Mocha", nameAr: "موكا", price: "12.50/15.50" },
-      { name: "Galaxy/Mars Shake", nameAr: "جالكسي/مارس شيك", price: "12.50/15.50" },
-      { name: "Cappuccino", nameAr: "كابوتشينو", price: "10.50" }
+      { name: "Oreo Milk Shake", nameAr: "اوريو شيك", price: "12.50/15.50", image: "/images/oreo_milkshake_glass.png" },
+      { name: "KitKat Crush", nameAr: "كت كات كرش", price: "12.50/15.50", image: "/images/kitkat_milkshake_crush.png" },
+      { name: "Snickers Crush", nameAr: "سنيكرز كرش", price: "12.50/15.50", image: "/images/snickers_milkshake_crush.png" },
+      { name: "Kinder Shake", nameAr: "كندر شيك", price: "12.50/15.50", image: "/images/kinder_milkshake_glass.png" },
+      { name: "Nutella Crush", nameAr: "نوتيلا كرش", price: "12.50/15.50", image: "/images/nutella_milkshake_crush.png" },
+      { name: "Mocha", nameAr: "موكا", price: "12.50/15.50", image: "/images/mocha_milkshake_glass.png" },
+      { name: "Galaxy/Mars Shake", nameAr: "جالكسي/مارس شيك", price: "12.50/15.50", image: "/images/galaxy_mars_milkshake.png" },
+      { name: "Cappuccino", nameAr: "كابوتشينو", price: "10.50", image: "/images/cappuccino_milkshake.png" }
     ]
   },
   desserts: {
@@ -262,11 +262,11 @@ export const menuData = {
     icon: "🍨",
     image: "/images/ice_cream_sundae_fal_aae19b5f.jpg",
     items: [
-      { name: "Falooda", nameAr: "فالودة", price: "12.50/15.50" },
-      { name: "Mixed Ice Cream", nameAr: "ايس كريم مشكل", price: "10.50" },
-      { name: "Fruit Salad", nameAr: "سلطة فواكه", price: "12.50/15.50" },
-      { name: "Fruit Salad W. Ice Cream", nameAr: "سلطة فواكه مع ايس كريم", price: "12.50/15.50" },
-      { name: "Avil Milk", nameAr: "حليب افيل", price: "10.50" }
+      { name: "Falooda", nameAr: "فالودة", price: "12.50/15.50", image: "/images/falooda_dessert_glass.png" },
+      { name: "Mixed Ice Cream", nameAr: "ايس كريم مشكل", price: "10.50", image: "/images/mixed_ice_cream_sundae.png" },
+      { name: "Fruit Salad", nameAr: "سلطة فواكه", price: "12.50/15.50", image: "/images/fresh_fruit_salad_bowl.png" },
+      { name: "Fruit Salad W. Ice Cream", nameAr: "سلطة فواكه مع ايس كريم", price: "12.50/15.50", image: "/images/fruit_salad_ice_cream.png" },
+      { name: "Avil Milk", nameAr: "حليب افيل", price: "10.50", image: "/images/avil_milk_dessert.png" }
     ]
   },
   keralaDishes: {
@@ -275,11 +275,11 @@ export const menuData = {
     icon: "🍛",
     image: "/images/kerala_beef_fry_curr_87f42331.jpg",
     items: [
-      { name: "Pothi Porotta", nameAr: "بوثي براتا", price: "12.5" },
-      { name: "Kothu Porotta", nameAr: "كوتو براتا", price: "12.5" },
-      { name: "Beef Fry", nameAr: "لحم بقر عسل", price: "15" },
-      { name: "Chicken Chilly", nameAr: "دجاج فلفل", price: "12.5" },
-      { name: "Kashmiri Chicken", nameAr: "دجاج كشميري", price: "12.5" }
+      { name: "Pothi Porotta", nameAr: "بوثي براتا", price: "12.5", image: "/images/kerala_pothi_porotta.png" },
+      { name: "Kothu Porotta", nameAr: "كوتو براتا", price: "12.5", image: "/images/kerala_kothu_porotta.png" },
+      { name: "Beef Fry", nameAr: "لحم بقر عسل", price: "15", image: "/images/kerala_beef_fry_dish.png" },
+      { name: "Chicken Chilly", nameAr: "دجاج فلفل", price: "12.5", image: "/images/chicken_chilli_dish.png" },
+      { name: "Kashmiri Chicken", nameAr: "دجاج كشميري", price: "12.5", image: "/images/kashmiri_chicken_curry.png" }
     ]
   },
   thattukada: {
@@ -288,13 +288,13 @@ export const menuData = {
     icon: "🚂",
     image: "/images/indian_street_food_t_77992736.jpg",
     items: [
-      { name: "Chatti Choru (Lunch Special)", nameAr: "شاطي شورو", price: "12" },
-      { name: "Paalkappa Mix", nameAr: "حليب كابا منشكل", price: "5" },
-      { name: "Puttu Mix", nameAr: "بوتو منشكل", price: "5" },
-      { name: "Pothichoru", nameAr: "بوثي شورو", price: "12" },
-      { name: "Poratta Mix", nameAr: "براتا منشكل", price: "5" },
-      { name: "Pazhampori Beef", nameAr: "موز مقلي لحم بقر", price: "5" },
-      { name: "Kunhippathal", nameAr: "كوني بالي", price: "6" }
+      { name: "Chatti Choru (Lunch Special)", nameAr: "شاطي شورو", price: "12", image: "/images/chatti_choru_lunch.png" },
+      { name: "Paalkappa Mix", nameAr: "حليب كابا منشكل", price: "5", image: "/images/paalkappa_mix_dish.png" },
+      { name: "Puttu Mix", nameAr: "بوتو منشكل", price: "5", image: "/images/puttu_mix_breakfast.png" },
+      { name: "Pothichoru", nameAr: "بوثي شورو", price: "12", image: "/images/pothichoru_kerala_meal.png" },
+      { name: "Poratta Mix", nameAr: "براتا منشكل", price: "5", image: "/images/poratta_mix_dish.png" },
+      { name: "Pazhampori Beef", nameAr: "موز مقلي لحم بقر", price: "5", image: "/images/pazhampori_beef_snack.png" },
+      { name: "Kunhippathal", nameAr: "كوني بالي", price: "6", image: "/images/kunhippathal_kerala_sweet.png" }
     ]
   },
   biriyani: {
@@ -303,17 +303,17 @@ export const menuData = {
     icon: "🍚",
     image: "/images/chicken_biryani_rice_7761ee57.jpg",
     items: [
-      { name: "Nadan Beef Curry", nameAr: "نادن لحم بقر صالونة", price: "12.5" },
-      { name: "Neypathiri Beef", nameAr: "ني باتل لحم بقر", price: "10" },
-      { name: "Pathiri Combo", nameAr: "باتل كومبو", price: "5" },
-      { name: "Neypathiri Chi. Fry", nameAr: "ني باتل دجاج مقلى", price: "8" },
-      { name: "Beef Dum Biriyani", nameAr: "برياني لحم بخار", price: "15.00" },
-      { name: "Ghee Rice Combo", nameAr: "كومبو ارز سمن", price: "12.00" },
-      { name: "Erachi Choru", nameAr: "ارز لحم", price: "12.00" },
-      { name: "Kappa Biriyani", nameAr: "كابا برياني", price: "10.00" },
-      { name: "Chicken Dum Biriyani", nameAr: "برياني دجاج بخار", price: "13.00" },
-      { name: "Thattu Dosa", nameAr: "تاتو دوسا", price: "5.00" },
-      { name: "Oothappam", nameAr: "اوثابم", price: "5.00" }
+      { name: "Nadan Beef Curry", nameAr: "نادن لحم بقر صالونة", price: "12.5", image: "/images/nadan_beef_curry.png" },
+      { name: "Neypathiri Beef", nameAr: "ني باتل لحم بقر", price: "10", image: "/images/neypathiri_beef_dish.png" },
+      { name: "Pathiri Combo", nameAr: "باتل كومبو", price: "5", image: "/images/pathiri_combo_meal.png" },
+      { name: "Neypathiri Chi. Fry", nameAr: "ني باتل دجاج مقلى", price: "8", image: "/images/neypathiri_chicken_fry.png" },
+      { name: "Beef Dum Biriyani", nameAr: "برياني لحم بخار", price: "15.00", image: "/images/beef_dum_biriyani.png" },
+      { name: "Ghee Rice Combo", nameAr: "كومبو ارز سمن", price: "12.00", image: "/images/ghee_rice_combo_meal.png" },
+      { name: "Erachi Choru", nameAr: "ارز لحم", price: "12.00", image: "/images/erachi_choru_meat_rice.png" },
+      { name: "Kappa Biriyani", nameAr: "كابا برياني", price: "10.00", image: "/images/kappa_biriyani_dish.png" },
+      { name: "Chicken Dum Biriyani", nameAr: "برياني دجاج بخار", price: "13.00", image: "/images/chicken_dum_biriyani.png" },
+      { name: "Thattu Dosa", nameAr: "تاتو دوسا", price: "5.00", image: "/images/thattu_dosa_kerala.png" },
+      { name: "Oothappam", nameAr: "اوثابم", price: "5.00", image: "/images/oothappam_pancake.png" }
     ]
   },
   noodles: {
@@ -322,10 +322,10 @@ export const menuData = {
     icon: "🍜",
     image: "/images/asian_noodles_chines_3273df60.jpg",
     items: [
-      { name: "Egg Noodles", nameAr: "نودلز بيض", price: "11.00" },
-      { name: "Beef Noodles", nameAr: "نودلز لحم", price: "14.00" },
-      { name: "Chi. Noodles", nameAr: "نودلز دجاج", price: "13.00" },
-      { name: "Veg Noodles", nameAr: "نودلز خضار", price: "11.00" }
+      { name: "Egg Noodles", nameAr: "نودلز بيض", price: "11.00", image: "/images/egg_noodles_dish.png" },
+      { name: "Beef Noodles", nameAr: "نودلز لحم", price: "14.00", image: "/images/beef_noodles_dish.png" },
+      { name: "Chi. Noodles", nameAr: "نودلز دجاج", price: "13.00", image: "/images/chicken_noodles_dish.png" },
+      { name: "Veg Noodles", nameAr: "نودلز خضار", price: "11.00", image: "/images/vegetable_noodles_dish.png" }
     ]
   },
   friedRice: {
@@ -334,10 +334,10 @@ export const menuData = {
     icon: "🍛",
     image: "/images/egg_fried_rice_chine_34b45b55.jpg",
     items: [
-      { name: "Egg Fried Rice", nameAr: "أرز مقلي بيض", price: "11.00" },
-      { name: "Veg Fried Rice", nameAr: "أرز مقلي خضار", price: "11.00" },
-      { name: "Chi. Fried Rice", nameAr: "أرز مقلي دجاج", price: "13.00" },
-      { name: "Beef Fried Rice", nameAr: "أرز مقلي لحم", price: "14.00" }
+      { name: "Egg Fried Rice", nameAr: "أرز مقلي بيض", price: "11.00", image: "/images/egg_fried_rice.png" },
+      { name: "Veg Fried Rice", nameAr: "أرز مقلي خضار", price: "11.00", image: "/images/vegetable_fried_rice.png" },
+      { name: "Chi. Fried Rice", nameAr: "أرز مقلي دجاج", price: "13.00", image: "/images/chicken_fried_rice.png" },
+      { name: "Beef Fried Rice", nameAr: "أرز مقلي لحم", price: "14.00", image: "/images/beef_fried_rice.png" }
     ]
   }
 };
