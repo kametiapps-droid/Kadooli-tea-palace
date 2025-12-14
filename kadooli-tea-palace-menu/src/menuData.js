@@ -55,14 +55,14 @@ export const menuData = {
     icon: "🍔",
     image: "/images/gourmet_burger_with__91bfcea2.jpg",
     items: [
-      { name: "Mathafi Burger", nameAr: "برجر مطافي", price: "12.50" },
-      { name: "Vegetable Burger", nameAr: "برجر خضار", price: "8.50" },
-      { name: "Zinker Double Burger", nameAr: "برجر زنجر دبل", price: "15.50" },
-      { name: "Chi./Beef Burger", nameAr: "برجر دجاج/لحم بقر", price: "8.50" },
-      { name: "Zinker Burger", nameAr: "برجر زنجر", price: "12.50" },
-      { name: "Jumbo Prawns Burger", nameAr: "برجر جمبو روبيان", price: "10.50" },
-      { name: "Fillet Burger", nameAr: "برجر فليه", price: "8.50" },
-      { name: "Nuggets Burger", nameAr: "برجر قطع دجاج", price: "9.50" }
+      { name: "Mathafi Burger", nameAr: "برجر مطافي", price: "12.50", image: "/images/mathafi_burger_gourmet.png" },
+      { name: "Vegetable Burger", nameAr: "برجر خضار", price: "8.50", image: "/images/vegetable_burger_fresh.png" },
+      { name: "Zinker Double Burger", nameAr: "برجر زنجر دبل", price: "15.50", image: "/images/zinker_double_burger.png" },
+      { name: "Chi./Beef Burger", nameAr: "برجر دجاج/لحم بقر", price: "8.50", image: "/images/chicken_beef_burger.png" },
+      { name: "Zinker Burger", nameAr: "برجر زنجر", price: "12.50", image: "/images/zinker_burger_crispy.png" },
+      { name: "Jumbo Prawns Burger", nameAr: "برجر جمبو روبيان", price: "10.50", image: "/images/jumbo_prawns_burger.png" },
+      { name: "Fillet Burger", nameAr: "برجر فليه", price: "8.50", image: "/images/fillet_burger_chicken.png" },
+      { name: "Nuggets Burger", nameAr: "برجر قطع دجاج", price: "9.50", image: "/images/nuggets_burger_stacked.png" }
     ]
   },
   combos: {
@@ -71,18 +71,18 @@ export const menuData = {
     icon: "🍟",
     image: "/images/combo_meal_burger_fr_f1650944.jpg",
     items: [
-      { name: "Zinker Combo", nameAr: "كومبو زنجر", price: "12.50" },
-      { name: "Hotdog Cheetos Combo", nameAr: "كومبو شيتوس شايلوس", price: "12.50" },
-      { name: "Mathafi Combo", nameAr: "كومبو مطافي", price: "12.50" },
-      { name: "Chi. Fillet Combo", nameAr: "كومبو فليه دجاج", price: "12.50" },
-      { name: "Zinker Prawns Combo", nameAr: "كومبو زنجر روبيان", price: "10.50" },
-      { name: "Chi. Nuggets Combo", nameAr: "كومبو قطع دجاج", price: "10.50" },
-      { name: "Vegetable Combo", nameAr: "كومبو خضار", price: "10.50" },
-      { name: "Tikka Combo", nameAr: "كومبو تكه", price: "10.50" },
-      { name: "Chilli Combo", nameAr: "كومبو شلي", price: "10.50" },
-      { name: "Hotdog Combo", nameAr: "كومبو هوتدوج", price: "10.50" },
-      { name: "Kabab Combo", nameAr: "كومبو كباب", price: "10.50" },
-      { name: "Jumbo Prawns Combo", nameAr: "كومبو جمبو روبيان", price: "10.50" }
+      { name: "Zinker Combo", nameAr: "كومبو زنجر", price: "12.50", image: "/images/zinker_combo_meal.png" },
+      { name: "Hotdog Cheetos Combo", nameAr: "كومبو شيتوس شايلوس", price: "12.50", image: "/images/hotdog_cheetos_combo.png" },
+      { name: "Mathafi Combo", nameAr: "كومبو مطافي", price: "12.50", image: "/images/mathafi_combo_meal.png" },
+      { name: "Chi. Fillet Combo", nameAr: "كومبو فليه دجاج", price: "12.50", image: "/images/chicken_fillet_combo.png" },
+      { name: "Zinker Prawns Combo", nameAr: "كومبو زنجر روبيان", price: "10.50", image: "/images/zinker_prawns_combo.png" },
+      { name: "Chi. Nuggets Combo", nameAr: "كومبو قطع دجاج", price: "10.50", image: "/images/chicken_nuggets_combo.png" },
+      { name: "Vegetable Combo", nameAr: "كومبو خضار", price: "10.50", image: "/images/vegetable_combo_meal.png" },
+      { name: "Tikka Combo", nameAr: "كومبو تكه", price: "10.50", image: "/images/tikka_combo_meal.png" },
+      { name: "Chilli Combo", nameAr: "كومبو شلي", price: "10.50", image: "/images/chilli_combo_meal.png" },
+      { name: "Hotdog Combo", nameAr: "كومبو هوتدوج", price: "10.50", image: "/images/hotdog_combo_meal.png" },
+      { name: "Kabab Combo", nameAr: "كومبو كباب", price: "10.50", image: "/images/kabab_combo_meal.png" },
+      { name: "Jumbo Prawns Combo", nameAr: "كومبو جمبو روبيان", price: "10.50", image: "/images/jumbo_prawns_combo.png" }
     ]
   },
   clubSandwiches: {
