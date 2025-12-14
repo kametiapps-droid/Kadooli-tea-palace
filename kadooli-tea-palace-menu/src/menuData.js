@@ -3,7 +3,7 @@ export const menuData = {
     name: "Tea & Coffee",
     nameAr: "شاي وقهوة",
     icon: "☕",
-    image: "/images/chai_tea_karak_india_6b2684c2.jpg",
+    image: "/images/karak_chai_tea_india_4fb18df0.jpg",
     items: [
       { name: "Kadooli Special", nameAr: "كادولي خاص", price: "5/8" },
       { name: "Flask Tea", nameAr: "شاي دلة", price: "5/8" },
@@ -35,7 +35,7 @@ export const menuData = {
     name: "Breakfast",
     nameAr: "فطور",
     icon: "🍳",
-    image: "/images/indian_breakfast_dos_805d15be.jpg",
+    image: "/images/south_indian_breakfa_0ea5c860.jpg",
     items: [
       { name: "Masala Dosa", nameAr: "مسالا دوسا", price: "7.00" },
       { name: "Idli + Chutney", nameAr: "ادلي و شاتني", price: "5.00" },
@@ -53,7 +53,7 @@ export const menuData = {
     name: "Burgers",
     nameAr: "برجر",
     icon: "🍔",
-    image: "/images/burger_with_fries_fa_927b5a2b.jpg",
+    image: "/images/gourmet_burger_with__91bfcea2.jpg",
     items: [
       { name: "Mathafi Burger", nameAr: "برجر مطافي", price: "12.50" },
       { name: "Vegetable Burger", nameAr: "برجر خضار", price: "8.50" },
@@ -69,7 +69,7 @@ export const menuData = {
     name: "Combos",
     nameAr: "كومبو",
     icon: "🍟",
-    image: "/images/combo_meal_burger_fr_e3845fc5.jpg",
+    image: "/images/combo_meal_burger_fr_f1650944.jpg",
     items: [
       { name: "Zinker Combo", nameAr: "كومبو زنجر", price: "12.50" },
       { name: "Hotdog Cheetos Combo", nameAr: "كومبو شيتوس شايلوس", price: "12.50" },
@@ -89,7 +89,7 @@ export const menuData = {
     name: "Club Sandwiches",
     nameAr: "كلوب ساندويتش",
     icon: "🥪",
-    image: "/images/club_sandwich_3f6d1949.jpg",
+    image: "/images/club_sandwich_layere_061fcbe2.jpg",
     items: [
       { name: "Family Club", nameAr: "كلوب العائلة", price: "30.50" },
       { name: "Chicken Club", nameAr: "كلوب دجاج", price: "12.50" },
@@ -104,7 +104,7 @@ export const menuData = {
     name: "Broasted Chicken",
     nameAr: "دجاج بروستد",
     icon: "🍗",
-    image: "/images/fried_chicken_broast_c06bd9ae.jpg",
+    image: "/images/crispy_fried_chicken_412d0165.jpg",
     items: [
       { name: "Snack Meal (2 pcs)", nameAr: "وجبة سناك", price: "13.50" },
       { name: "Mini Strips Meal", nameAr: "وجبة ميني ستربس", price: "13.50" },
@@ -117,7 +117,7 @@ export const menuData = {
     name: "Porotta Sandwiches",
     nameAr: "براتا ساندويتش",
     icon: "🌯",
-    image: "/images/wrap_sandwich_shawar_0c097b66.jpg",
+    image: "/images/porotta_paratha_wrap_11f089a5.jpg",
     items: [
       { name: "Zinker Porotta", nameAr: "براتا زنجر", price: "9.00" },
       { name: "Chi. Chilli Porotta", nameAr: "براتا دجاج شلي", price: "6.00" },
@@ -145,7 +145,7 @@ export const menuData = {
     name: "Potato Special",
     nameAr: "بطاطس خاص",
     icon: "🍟",
-    image: "/images/french_fries_potato__0c8b92c4.jpg",
+    image: "/images/french_fries_crispy__1a0a4a4f.jpg",
     items: [
       { name: "Potato Ring W. Cheese", nameAr: "حلقات بطاطا مع جبن", price: "10.50" },
       { name: "French Fries", nameAr: "بطاطا مقلي", price: "5/10" },
@@ -168,7 +168,7 @@ export const menuData = {
     name: "Fresh Juice",
     nameAr: "عصير طازج",
     icon: "🍹",
-    image: "/images/fresh_orange_juice_g_b10a19d0.jpg",
+    image: "/images/fresh_orange_juice_g_b79aed1b.jpg",
     items: [
       { name: "Avocado", nameAr: "أفوكادو", price: "10/12" },
       { name: "Strawberry", nameAr: "فراولة", price: "10/12" },
@@ -192,7 +192,7 @@ export const menuData = {
     name: "Fruit Bricks",
     nameAr: "فواكه طوب",
     icon: "🧃",
-    image: "/images/fruit_juice_bottle_m_7c8f84de.jpg",
+    image: "/images/fruit_juice_bottles__a4fb9107.jpg",
     items: [
       { name: "Pineapple (1L/2L)", nameAr: "أناناس", price: "15.50/21.00" },
       { name: "Pomegranate (1L/2L)", nameAr: "رمان", price: "15.50/21.00" },
@@ -205,7 +205,7 @@ export const menuData = {
     name: "Special Juices",
     nameAr: "عصائر خاصة",
     icon: "🥤",
-    image: "/images/special_juice_tropic_1a0b910c.jpg",
+    image: "/images/special_cocktail_tro_ee0c678a.jpg",
     items: [
       { name: "Abood", nameAr: "عبود", price: "15.00" },
       { name: "Galaxy", nameAr: "جالكسي", price: "15.00" },
@@ -227,7 +227,7 @@ export const menuData = {
     name: "Mojito",
     nameAr: "موهيتو",
     icon: "🍸",
-    image: "/images/mojito_cocktail_mint_49822547.jpg",
+    image: "/images/mojito_mint_lime_coc_fb7f34eb.jpg",
     items: [
       { name: "Pomegranate", nameAr: "رمان", price: "12.50" },
       { name: "Mojito Special", nameAr: "موهيتو خاص", price: "12.50" },
@@ -244,7 +244,7 @@ export const menuData = {
     name: "Milkshakes & Crush",
     nameAr: "ميلك شيك",
     icon: "🥛",
-    image: "/images/chocolate_milkshake__3d4d9c57.jpg",
+    image: "/images/chocolate_milkshake__430b02f4.jpg",
     items: [
       { name: "Oreo Milk Shake", nameAr: "اوريو شيك", price: "12.50/15.50" },
       { name: "KitKat Crush", nameAr: "كت كات كرش", price: "12.50/15.50" },
@@ -260,7 +260,7 @@ export const menuData = {
     name: "Desserts",
     nameAr: "حلويات",
     icon: "🍨",
-    image: "/images/ice_cream_sundae_des_fbf70c3c.jpg",
+    image: "/images/ice_cream_sundae_fal_aae19b5f.jpg",
     items: [
       { name: "Falooda", nameAr: "فالودة", price: "12.50/15.50" },
       { name: "Mixed Ice Cream", nameAr: "ايس كريم مشكل", price: "10.50" },
@@ -273,7 +273,7 @@ export const menuData = {
     name: "Kerala Special",
     nameAr: "كيرلا خاص",
     icon: "🍛",
-    image: "/images/kerala_curry_beef_fr_47ca9b17.jpg",
+    image: "/images/kerala_beef_fry_curr_87f42331.jpg",
     items: [
       { name: "Pothi Porotta", nameAr: "بوثي براتا", price: "12.5" },
       { name: "Kothu Porotta", nameAr: "كوتو براتا", price: "12.5" },
@@ -286,7 +286,7 @@ export const menuData = {
     name: "Thattukada Express",
     nameAr: "ثاتوكادا إكسبريس",
     icon: "🚂",
-    image: "/images/kerala_curry_beef_fr_47ca9b17.jpg",
+    image: "/images/indian_street_food_t_77992736.jpg",
     items: [
       { name: "Chatti Choru (Lunch Special)", nameAr: "شاطي شورو", price: "12" },
       { name: "Paalkappa Mix", nameAr: "حليب كابا منشكل", price: "5" },
@@ -301,7 +301,7 @@ export const menuData = {
     name: "Biriyani",
     nameAr: "برياني",
     icon: "🍚",
-    image: "/images/biryani_rice_indian__793bbda6.jpg",
+    image: "/images/chicken_biryani_rice_7761ee57.jpg",
     items: [
       { name: "Nadan Beef Curry", nameAr: "نادن لحم بقر صالونة", price: "12.5" },
       { name: "Neypathiri Beef", nameAr: "ني باتل لحم بقر", price: "10" },
@@ -320,7 +320,7 @@ export const menuData = {
     name: "Noodles",
     nameAr: "نودلز",
     icon: "🍜",
-    image: "/images/noodles_asian_chines_680987aa.jpg",
+    image: "/images/asian_noodles_chines_3273df60.jpg",
     items: [
       { name: "Egg Noodles", nameAr: "نودلز بيض", price: "11.00" },
       { name: "Beef Noodles", nameAr: "نودلز لحم", price: "14.00" },
@@ -332,7 +332,7 @@ export const menuData = {
     name: "Fried Rice",
     nameAr: "أرز مقلي",
     icon: "🍛",
-    image: "/images/fried_rice_egg_veget_91de5487.jpg",
+    image: "/images/egg_fried_rice_chine_34b45b55.jpg",
     items: [
       { name: "Egg Fried Rice", nameAr: "أرز مقلي بيض", price: "11.00" },
       { name: "Veg Fried Rice", nameAr: "أرز مقلي خضار", price: "11.00" },
