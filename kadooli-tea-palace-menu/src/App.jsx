@@ -109,7 +109,6 @@ const CategoryCard = memo(function CategoryCard({ categoryKey, category, onClick
         <div className="card-badge">{category.items.length}</div>
       </div>
       <div className="card-body">
-        <span className="card-icon">{category.icon}</span>
         <div className="card-text">
           <h3 className="card-title">{category.name}</h3>
           <p className="card-subtitle">{category.nameAr}</p>
