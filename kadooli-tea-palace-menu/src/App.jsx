@@ -127,7 +127,7 @@ const MenuItem = memo(function MenuItem({ item, categoryImage, index }) {
     <div className="menu-item" style={{ animationDelay: `${index * 0.03}s` }}>
       <div className="item-image-wrap">
         <img 
-          src={categoryImage} 
+          src={item.image || categoryImage} 
           alt={item.name}
           loading="lazy"
           className="item-image"
