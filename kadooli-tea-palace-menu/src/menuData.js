@@ -91,13 +91,13 @@ export const menuData = {
     icon: "🥪",
     image: "/images/club_sandwich_layere_061fcbe2.jpg",
     items: [
-      { name: "Family Club", nameAr: "كلوب العائلة", price: "30.50" },
-      { name: "Chicken Club", nameAr: "كلوب دجاج", price: "12.50" },
-      { name: "Zinker Club", nameAr: "كلوب زنجر", price: "12.50" },
-      { name: "Vegetable Club", nameAr: "كلوب خضار", price: "12.50" },
-      { name: "Hotdog Club", nameAr: "كلوب نقانق", price: "12.50" },
-      { name: "Mega Club", nameAr: "كلوب العملاق", price: "12.50" },
-      { name: "Magic Club", nameAr: "كلوب ماجيك", price: "12.50" }
+      { name: "Family Club", nameAr: "كلوب العائلة", price: "30.50", image: "/images/family_club_sandwich.png" },
+      { name: "Chicken Club", nameAr: "كلوب دجاج", price: "12.50", image: "/images/chicken_club_sandwich.png" },
+      { name: "Zinker Club", nameAr: "كلوب زنجر", price: "12.50", image: "/images/zinker_club_sandwich.png" },
+      { name: "Vegetable Club", nameAr: "كلوب خضار", price: "12.50", image: "/images/vegetable_club_sandwich.png" },
+      { name: "Hotdog Club", nameAr: "كلوب نقانق", price: "12.50", image: "/images/hotdog_club_sandwich.png" },
+      { name: "Mega Club", nameAr: "كلوب العملاق", price: "12.50", image: "/images/mega_club_sandwich.png" },
+      { name: "Magic Club", nameAr: "كلوب ماجيك", price: "12.50", image: "/images/magic_club_sandwich.png" }
     ]
   },
   broastedChicken: {
@@ -106,11 +106,11 @@ export const menuData = {
     icon: "🍗",
     image: "/images/crispy_fried_chicken_412d0165.jpg",
     items: [
-      { name: "Snack Meal (2 pcs)", nameAr: "وجبة سناك", price: "13.50" },
-      { name: "Mini Strips Meal", nameAr: "وجبة ميني ستربس", price: "13.50" },
-      { name: "Jumbo Meal (6 pcs)", nameAr: "وجبة جمبو", price: "31.50" },
-      { name: "Family Meal (8 pcs)", nameAr: "وجبة عائلة", price: "47.00" },
-      { name: "Special Family Meal (12 pcs)", nameAr: "وجبة العائلة خاص", price: "63.00" }
+      { name: "Snack Meal (2 pcs)", nameAr: "وجبة سناك", price: "13.50", image: "/images/broasted_snack_meal.png" },
+      { name: "Mini Strips Meal", nameAr: "وجبة ميني ستربس", price: "13.50", image: "/images/mini_strips_meal.png" },
+      { name: "Jumbo Meal (6 pcs)", nameAr: "وجبة جمبو", price: "31.50", image: "/images/jumbo_chicken_meal.png" },
+      { name: "Family Meal (8 pcs)", nameAr: "وجبة عائلة", price: "47.00", image: "/images/family_chicken_meal.png" },
+      { name: "Special Family Meal (12 pcs)", nameAr: "وجبة العائلة خاص", price: "63.00", image: "/images/special_family_meal.png" }
     ]
   },
   porottaSandwiches: {
