@@ -147,21 +147,21 @@ export const menuData = {
     icon: "🍟",
     image: "/images/french_fries_crispy__1a0a4a4f.jpg",
     items: [
-      { name: "Potato Ring W. Cheese", nameAr: "حلقات بطاطا مع جبن", price: "10.50" },
-      { name: "French Fries", nameAr: "بطاطا مقلي", price: "5/10" },
-      { name: "Potato Wedges", nameAr: "بطاطا وجز", price: "10.50" },
-      { name: "Potato Net", nameAr: "بطاطا نت", price: "10.50" },
-      { name: "Mix Potato", nameAr: "بطاطا مشكل", price: "10.50" },
-      { name: "Potato Rings", nameAr: "حلقات بطاطا", price: "10.50" },
-      { name: "Onion Rings", nameAr: "حلقات بصل", price: "10.50" },
-      { name: "Chicken Popcorn", nameAr: "دجاج بوبكورن", price: "12.50" },
-      { name: "Nuggets Plate", nameAr: "صحون قطع دجاج", price: "12.50" },
-      { name: "Samosa (3 pcs)", nameAr: "سموسة", price: "2.00" },
-      { name: "Big Samosa", nameAr: "سموسة كبير", price: "10.50" },
-      { name: "Hotdog Fry Plate", nameAr: "صحون نقانق مقلى", price: "10.50" },
-      { name: "Cutlet", nameAr: "كتلت", price: "12.00" },
-      { name: "Kids Meal", nameAr: "وجبة الأطفال", price: "13.50" },
-      { name: "French Fries W. Cheese", nameAr: "بطاطا مقلي مع جبن", price: "15.50" }
+      { name: "Potato Ring W. Cheese", nameAr: "حلقات بطاطا مع جبن", price: "10.50", image: "/images/potato_ring_with_cheese.png" },
+      { name: "French Fries", nameAr: "بطاطا مقلي", price: "5/10", image: "/images/french_fries_crispy.png" },
+      { name: "Potato Wedges", nameAr: "بطاطا وجز", price: "10.50", image: "/images/potato_wedges_seasoned.png" },
+      { name: "Potato Net", nameAr: "بطاطا نت", price: "10.50", image: "/images/potato_net_lattice_fries.png" },
+      { name: "Mix Potato", nameAr: "بطاطا مشكل", price: "10.50", image: "/images/mix_potato_variety_platter.png" },
+      { name: "Potato Rings", nameAr: "حلقات بطاطا", price: "10.50", image: "/images/potato_rings_fried.png" },
+      { name: "Onion Rings", nameAr: "حلقات بصل", price: "10.50", image: "/images/onion_rings_crispy_fried.png" },
+      { name: "Chicken Popcorn", nameAr: "دجاج بوبكورن", price: "12.50", image: "/images/chicken_popcorn_bites.png" },
+      { name: "Nuggets Plate", nameAr: "صحون قطع دجاج", price: "12.50", image: "/images/nuggets_plate_chicken.png" },
+      { name: "Samosa (3 pcs)", nameAr: "سموسة", price: "2.00", image: "/images/samosa_three_pieces.png" },
+      { name: "Big Samosa", nameAr: "سموسة كبير", price: "10.50", image: "/images/big_samosa_jumbo_size.png" },
+      { name: "Hotdog Fry Plate", nameAr: "صحون نقانق مقلى", price: "10.50", image: "/images/hotdog_fry_plate.png" },
+      { name: "Cutlet", nameAr: "كتلت", price: "12.00", image: "/images/chicken_cutlet_fried.png" },
+      { name: "Kids Meal", nameAr: "وجبة الأطفال", price: "13.50", image: "/images/kids_meal_combo.png" },
+      { name: "French Fries W. Cheese", nameAr: "بطاطا مقلي مع جبن", price: "15.50", image: "/images/french_fries_with_cheese.png" }
     ]
   },
   freshJuice: {
