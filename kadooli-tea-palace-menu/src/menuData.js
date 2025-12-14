@@ -37,16 +37,16 @@ export const menuData = {
     icon: "🍳",
     image: "/images/south_indian_breakfa_0ea5c860.jpg",
     items: [
-      { name: "Masala Dosa", nameAr: "مسالا دوسا", price: "7.00" },
-      { name: "Idli + Chutney", nameAr: "ادلي و شاتني", price: "5.00" },
-      { name: "Puttu + Kadala Curry", nameAr: "بوتو و كدلا صالونة", price: "7.00" },
-      { name: "Dosa + Chutney", nameAr: "دوسا و شاتني", price: "5.00" },
-      { name: "Poratta + Egg Curry", nameAr: "براتا و بيض صالونة", price: "7.00" },
-      { name: "Poratta + Chi. Curry", nameAr: "براتا و دجاج صالونة", price: "10.00" },
-      { name: "Poratta + Veg. Curry", nameAr: "براتا و خضار صالونة", price: "7.00" },
-      { name: "Poratta + Fish Curry", nameAr: "براتا و سمك صالونة", price: "10.00" },
-      { name: "Egg Roast", nameAr: "بيض مشوي", price: "5.00" },
-      { name: "Poori Bhaji", nameAr: "بوري باجي", price: "5.00" }
+      { name: "Masala Dosa", nameAr: "مسالا دوسا", price: "7.00", image: "/images/masala_dosa_south_indian.png" },
+      { name: "Idli + Chutney", nameAr: "ادلي و شاتني", price: "5.00", image: "/images/idli_with_chutney.png" },
+      { name: "Puttu + Kadala Curry", nameAr: "بوتو و كدلا صالونة", price: "7.00", image: "/images/puttu_kadala_curry_kerala.png" },
+      { name: "Dosa + Chutney", nameAr: "دوسا و شاتني", price: "5.00", image: "/images/dosa_with_chutney.png" },
+      { name: "Poratta + Egg Curry", nameAr: "براتا و بيض صالونة", price: "7.00", image: "/images/poratta_egg_curry.png" },
+      { name: "Poratta + Chi. Curry", nameAr: "براتا و دجاج صالونة", price: "10.00", image: "/images/poratta_chicken_curry.png" },
+      { name: "Poratta + Veg. Curry", nameAr: "براتا و خضار صالونة", price: "7.00", image: "/images/poratta_vegetable_curry.png" },
+      { name: "Poratta + Fish Curry", nameAr: "براتا و سمك صالونة", price: "10.00", image: "/images/poratta_fish_curry.png" },
+      { name: "Egg Roast", nameAr: "بيض مشوي", price: "5.00", image: "/images/kerala_egg_roast.png" },
+      { name: "Poori Bhaji", nameAr: "بوري باجي", price: "5.00", image: "/images/poori_bhaji_indian.png" }
     ]
   },
   burgers: {
